@@ -1,0 +1,6 @@
+print("===== EXERCICIO 029 =====")
+nome = str(input("DIGITE SEU NOME COMPLETO: ")).upper().strip()
+div = nome.split()
+tamdiv = len(div)
+print(tamdiv)
+print(f"OLÁ {nome}, é um prazer te conhercer!\nSeu primeiro nome é: {div[0]}\nSeu ultimo nome é: {div[tamdiv-1]}")

@@ -1,0 +1,8 @@
+print('===== EXERCICIO 004 =====')
+n = input('digite algo: ')
+print('O Tipo desta variavél é: ', type(n))
+print('Tem somente espaços?: ', n.isspace())
+print('É um numero?: ', n.isnumeric())
+print('É alfabetico?: ', n.isalpha())
+print('Esta em maiusculo?: ', n.isupper())
+print('Esta em minusculo?: ', n.islower())

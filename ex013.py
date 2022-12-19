@@ -1,0 +1,6 @@
+print("===== EXERCICIO 013 =====")
+sal = float(input("Digite seu salario: "))
+asc = float(input("Digite a porcentagem do seu aumento: "))
+nsal = sal+(sal*asc/100)
+print("Seu salario de R${} com aumento de {}% passará a ser de: R${}".format(sal, asc, nsal))
+print("===== EXERCICIO 013 =====")

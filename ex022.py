@@ -1,0 +1,8 @@
+print("===== EXERCICIO 022 =====")
+nome = input("Digite seu nome completo: ")
+print("Nome em maisculo: {}".format(nome.upper()))
+print("Nome em minusculo: {}".format(nome.lower()))
+tamnome = len(nome)
+nome = nome.split()
+print("O nome completo sem espaços tem: {} letras ".format(tamnome-len(nome)))
+print("O primeiro nome é {} tem {} letras.".format(nome[0], len(nome[0])))

@@ -1,0 +1,7 @@
+print("===== EXERCICIO 012 =====")
+print("Este programa calcula o quanto de desconto é dado em um produto:")
+valor = float(input("Digite o valor do produto: "))
+desc = float(input("Digite a porcentagem de desconto dado no produto: "))
+nvalor = valor-(valor*desc/100)
+print("O produto de valor R${}, com desconto de {}%, passará a ter o valor de R${:.2f}.".format(valor, desc, nvalor))
+print("===== EXERCICIO 012 =====")
